@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(../arquivos/fundo.png) repeat-x left top;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body#n2, body#n3{
+    background: url(../arquivos/fundo2.png) repeat-x left top;
+}
+
+div#container{
+    margin: 0 auto;
+    width: 900px;
+}
+
+header{
+    margin-top: 20px;
+    margin-bottom: 23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+span{
+    font-weight: bold;
+}
+
+section#texto{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+p{
+    margin: 10px 0px;
+}
+h2{
+    margin-bottom: 20px;
+}
+footer{
+    padding: 20px;
+    text-align: center;
+}
+body#n2 h1, hr, ol{
+    margin-top: 20px;
+}
+ol{
+    margin-left: 30px;
+}
+body#n3 hr{
+    margin-bottom: 10px;
+}
+input{
+    margin-bottom: 20px;
+}
+
+
+
+
